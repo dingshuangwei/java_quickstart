@@ -1,2 +1,3 @@
 echo $ORACLE_SID
 sqlplus 
+select status from v$instance;
